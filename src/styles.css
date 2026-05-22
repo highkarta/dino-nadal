@@ -6,11 +6,24 @@
 }
 
 /* TYPE SELECTORs */
+html {
+  scroll-behavior: smooth;
+}
+
 nav,
 header,
 footer {
   background-color: #1f2937;
   color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 h1 {
